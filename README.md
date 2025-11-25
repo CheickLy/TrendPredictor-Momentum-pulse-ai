@@ -20,8 +20,8 @@ As the years go by, more and more people see themselves in careers built around 
 ### Core Technology Stack in a Nutshell:
 
 * **HTML5:** Structured the single-page application with semantic elements to organize the dashboard layout.
-* **Tailwind CSS (via CDN):** Used exclusively for high-speed, utility-first styling, ensuring a dark-mode professional aesthetic and full responsiveness across all devices.
-* **JavaScript (ES6+):** Programmatically injected data into the DOM, managed click events for reliable external navigation, and implemented the real-time "Last Updated" clock.
+* **Tailwind CSS:** Used exclusively for high-speed, utility-first styling, ensuring a dark-mode professional aesthetic and full responsiveness across all devices.
+* **JavaScript:** Programmatically injected data into the DOM, managed click events for reliable external navigation, and implemented the real-time "Last Updated" clock.
 * **Simulated Data (Concept):** The dashboard concept relies on simulating outputs from **LLM Clustering** and **Time-Series Forecasting (ARIMA/Prophet)** to categorize and score trend momentum.
 
 ---
