@@ -2,30 +2,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Momentum Pulse AI: Viral Trend Detector</title>
-    <!-- Load Tailwind CSS -->
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom font import for professional look */
+        /* Custom font import for professional look (Going for a slick DARK MODE theme, almost professional*/
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #0d1117; /* Dark background, similar to GitHub/Dev tools */
+            background-color: #0d1117; /* Dark background*/
             color: #c9d1d9; /* Light gray text */
         }
         .card {
-            background-color: #161b22; /* Slightly lighter card background */
+            background-color: #161b22; 
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
         }
         .trend-up {
-            color: #38a169; /* Green for growth */
+            color: #38a169; /* Green signify growth */
         }
         .trend-spike {
             color: #d69e2e; /* Yellow/Orange for explosive spike */
         }
         .trend-stable {
-            color: #4299e1; /* Blue for steady growth */
+            color: #4299e1; /* Blue signify steady growth */
         }
-        /* Style for the explicitly clickable title and button */
+        
         .title-link-target, .action-button {
             cursor: pointer;
         }
@@ -44,11 +44,11 @@
     </header>
 
     <main>
-        <!-- Actionable Insights Section -->
+       
         <h2 class="text-xl font-semibold text-white mb-6 border-b border-gray-700 pb-2">Top Momentum Insights (Filtered by ML Models)</h2>
 
         <div id="insights-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Insights will be injected here by JavaScript -->
+            
         </div>
     </main>
 
@@ -180,23 +180,23 @@
 
             // Event Delegation: Listen for clicks on the grid and check for clickable elements
             grid.addEventListener('click', (event) => {
-                // Check if the clicked element or its closest ancestor is the title link target (h3)
+                
                 const titleElement = event.target.closest('.title-link-target');
-                // Check if the clicked element or its closest ancestor is the action button
+                
                 const actionButton = event.target.closest('.action-button');
 
                 let link = null;
 
                 if (titleElement) {
-                    // Use the link from the title element
+                    // link from the title
                     link = titleElement.getAttribute('data-link');
                 } else if (actionButton) {
-                    // Use the link from the action button
+                    // link from the action button
                     link = actionButton.getAttribute('data-link');
                 }
 
                 if (link) {
-                    // Use window.open to explicitly force the new window/tab
+                    
                     window.open(link, '_blank');
                 }
             });
