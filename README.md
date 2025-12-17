@@ -1,10 +1,10 @@
-#  Momentum Pulse AI: Viral Trend Detector Blueprint
+#  Momentum Pulse AI: Viral Trend Detector 
 
-Welcome to the Momentum Pulse AI Dashboard a blueprint demonstrating a slick, real-time data visualization interface for identifying viral trends across social media and e-commerce. This project is designed to showcase strong front-end architecture and responsive UI/UX design.
+Welcome to the Momentum Pulse AI Dashboard demonstrating a slick, real-time data visualization interface for identifying viral trends across social media and e-commerce. This project is designed to showcase strong front-end architecture and responsive UI/UX design.
 
 ## Why i chose to build this Project
 
-As the years go by, more and more people see themselves in careers built around social media. And what better way to get ahead of the game than by creating an AI that helps you make viral breakout posts and stay on top? This project isn’t just a static webpage; it’s a dynamic, fully functional visualization that shows my ability to turn complex data concepts (like predictive modeling and LLM analysis) into a clean, actionable user experience.
+As the years go by, more and more people see themselves in careers built around social media. Using AI helps make viral breakout posts and stay on top! This project isn’t just a static webpage; it’s a dynamic, fully functional visualization that shows my ability to turn complex data concepts (like predictive modeling and LLM analysis) into a clean, actionable user experience.
 
 ## 🧠 Skills & Technologies Demonstrated
 
@@ -34,9 +34,3 @@ As the years go by, more and more people see themselves in careers built around 
     ```
 2.  **Open in VS Code.**
 3.  Right-click on `index.html` and select **"Open with Live Server"** (requires the VS Code Live Server extension).
-
-To-do-list:
-- integrate AI possibly Gemini ( data itself is mocked for the blueprint.) AI is simulated for time being.
-- Test AI
-- Tiktok database, Reddit database, Google Seach database, other social media.
-  
